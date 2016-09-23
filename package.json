@@ -1,0 +1,16 @@
+{
+  "name": "packt",
+  "version": "1.0.0",
+  "description": "Get a mail with the image of the deal of the day",
+  "main": "dotd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordi Cerdan <jcerdan@tecob.com>",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "webshot": "^0.18.0"
+  }
+}
