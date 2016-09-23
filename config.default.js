@@ -1,13 +1,13 @@
 'use strict'
 let config = {
-  path: '',
+  path: '',         // Temporal file where image will be downloaded and then deleted
   mail: {
-    host: '',
+    host: '',       // mail server
     port: 587,
-    From: '',
-    login: '',
-    password: '',
-    ToMail: ''
+    From: '',       // From name
+    login: '',      // mail account login
+    password: '',   // mail account password
+    ToMail: ''      // mail to send dotd image and link
   }
 }
 
